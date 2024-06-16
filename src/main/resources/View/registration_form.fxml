@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootNode" prefHeight="589.0" prefWidth="842.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse69.cs_fashion.Controllers.RegistrationFormController">
+    <children>
+        <ImageView fitHeight="598.0" fitWidth="940.0" onDragDetected="#btnRegisterOnAction">
+            <image>
+                <Image url="@../Images/pexels-willoworld-3768005.jpg" />
+            </image>
+        </ImageView>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="520.0" layoutX="121.0" layoutY="39.0" opacity="0.6" stroke="WHITE" strokeType="INSIDE" width="699.0" />
+        <Line endX="282.0" endY="-33.0" layoutX="333.0" layoutY="152.0" startX="-8.0" startY="-33.0" />
+        <Label layoutX="389.0" layoutY="59.0" text="Sign Up" textFill="#074173">
+            <font>
+                <Font name="System Bold Italic" size="37.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtUserName" layoutX="524.0" layoutY="192.0" prefHeight="32.0" prefWidth="253.0" promptText="Username">
+            <cursor>
+                <Cursor fx:constant="WAIT" />
+            </cursor></TextField>
+        <TextField fx:id="txtDate" layoutX="344.0" layoutY="396.0" prefHeight="32.0" prefWidth="253.0" promptText="Registered Date &quot;yyyy-mm-dd&quot;" />
+        <JFXButton buttonType="RAISED" layoutX="378.0" layoutY="484.0" onAction="#btnRegisterOnAction" prefHeight="45.0" prefWidth="185.0" style="-fx-background-color: #F3B95F; -fx-background-radius: 20;" text="Register" textFill="#fcf8f8">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </JFXButton>
+      <TextField fx:id="txtUserId" layoutX="169.0" layoutY="192.0" prefHeight="32.0" prefWidth="253.0" promptText="User Id">
+         <cursor>
+            <Cursor fx:constant="WAIT" />
+         </cursor>
+      </TextField>
+      <TextField fx:id="txtEmail" layoutX="169.0" layoutY="295.0" prefHeight="32.0" prefWidth="253.0" promptText="Email" />
+      <TextField fx:id="txtPassword" layoutX="524.0" layoutY="295.0" prefHeight="32.0" prefWidth="253.0" promptText="Password">
+         <cursor>
+            <Cursor fx:constant="WAIT" />
+         </cursor>
+      </TextField>
+      <Label layoutX="163.0" layoutY="169.0" text="User Id :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="519.0" layoutY="169.0" text="User Name :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="270.0" text="Email :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="519.0" layoutY="270.0" text="Password :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="344.0" layoutY="371.0" text="Registered Date :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+    </children>
+</AnchorPane>

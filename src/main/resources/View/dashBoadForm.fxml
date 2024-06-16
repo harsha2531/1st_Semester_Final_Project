@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="791.0" prefWidth="1117.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse69.cs_fashion.Controllers.DashBoardFormController">
+   <children>
+      <ImageView fitHeight="632.0" fitWidth="768.0" layoutX="253.0" layoutY="119.0" opacity="0.34" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo-AnyEraser.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="439.0" layoutY="129.0" prefHeight="129.0" prefWidth="232.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <Label fx:id="lblDate11" layoutX="17.0" layoutY="14.0" prefHeight="53.0" prefWidth="198.0" text="Order Count" textFill="#013220">
+               <font>
+                  <Font name="System Bold Italic" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblTime11" layoutX="30.0" layoutY="62.0" prefHeight="53.0" prefWidth="169.0" textFill="#013220">
+               <font>
+                  <Font name="System Bold Italic" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblOrderCount" layoutX="32.0" layoutY="62.0" prefHeight="53.0" prefWidth="169.0" textFill="#013220">
+               <font>
+                  <Font name="System Bold Italic" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="86.0" layoutY="129.0" prefHeight="129.0" prefWidth="284.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <Label fx:id="lblDate1" layoutX="11.0" layoutY="14.0" prefHeight="53.0" prefWidth="263.0" text="Customer Count" textFill="#013220">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblCusCount" layoutX="58.0" layoutY="65.0" prefHeight="53.0" prefWidth="169.0" textFill="#013220">
+               <font>
+                  <Font name="System Bold Italic" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="755.0" layoutY="129.0" prefHeight="129.0" prefWidth="249.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <Label fx:id="lblDate111" layoutX="61.0" layoutY="14.0" prefHeight="53.0" prefWidth="235.0" text="Item Count" textFill="#013220">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblItemCount" layoutX="61.0" layoutY="64.0" prefHeight="53.0" prefWidth="169.0" textFill="#013220">
+               <font>
+                  <Font name="System Bold Italic" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
